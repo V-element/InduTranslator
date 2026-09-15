@@ -1,0 +1,16 @@
+services:
+  backend:
+    environment:
+      JWT_SECRET: your-super-secret-jwt-key-change-in-production-12345
+      JWT_EXPIRATION: 86400
+      AI_PROVIDER: openai
+      AI_API_KEY: your-api-key-here
+      AI_BASE_URL: https://api.openai.com/v1
+      AI_MODEL: gpt-4
+    volumes:
+      - ./logs:/app/logs
+
+volumes:
+  postgres_data:
+  redis_data:
+  minio_data:

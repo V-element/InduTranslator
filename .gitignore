@@ -1,0 +1,84 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+
+# Build
+target/
+build/
+dist/
+out/
+.next/
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+coverage/
+.nyc_output/
+
+# Docker
+.dockerignore
+
+# Cache
+.cache/
+.temp/
+
+# Generated code
+*.java~
+.class
+*.class
+
+# Spring Boot
+.mvn/
+mvnw
+mvnw.cmd
+
+# MinIO
+minio_data/
+
+# PostgreSQL
+postgres_data/
+
+# Redis
+redis_data/
+
+# Application jars
+*.jar
